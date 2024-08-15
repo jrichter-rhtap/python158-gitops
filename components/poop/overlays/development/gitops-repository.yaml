@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: poop-gitops-repository
+spec:
+  url: https://github.com/jrichter-rhtap/python158-gitops
